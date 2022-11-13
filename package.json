@@ -1,0 +1,22 @@
+{
+  "name": "dz-1-git",
+  "version": "1.0.0",
+  "description": "OTUS DZ Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaterinaSergeeva/dz-1-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaterinaSergeeva/dz-1-git/issues"
+  },
+  "homepage": "https://github.com/KaterinaSergeeva/dz-1-git#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
