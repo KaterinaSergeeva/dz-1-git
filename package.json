@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KaterinaSergeeva/dz-1-git/issues"
   },
-  "homepage": "https://github.com/KaterinaSergeeva/dz-1-git#readme"
+  "homepage": "https://github.com/KaterinaSergeeva/dz-1-git#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
