@@ -1,6 +1,4 @@
-export function circleInSquare() {
-    const circle = 8;
-    const square = 16;
+export function circleInSquare(circle,square) {
     if ((circle/square)<=(Math.PI/4)){ 
         console.log("Круг поместится в квадрат");
     } else {
