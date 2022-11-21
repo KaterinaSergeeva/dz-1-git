@@ -1,9 +1,16 @@
 const button = document.querySelector('.button');
+button.addEventListener('click', onClick);
+const input = document.querySelector('.text-field');
+input.addEventListener('change',(e)=>hideButton(e.target.value));
+
+function hideButton(value){
 if (getInputText().length <1) {
-    button.display = "none";
+    button.style.display = "none";
 } else {
-    button.display = "block";
+    button.style.display = "block";
 }
+}
+hideButton(getInputText());
 
 function onClick(){
     const text = getInputText();
@@ -12,7 +19,7 @@ function onClick(){
 }
 
 function getInputText(){
-    const input = document.querySelector('.text-field');
+    
     return input.value;
 }
 
