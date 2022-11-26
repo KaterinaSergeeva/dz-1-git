@@ -1,4 +1,4 @@
-function equation(){
+export function equation(){
     let [a,b,c] = prompt('Enter a,b,c: ').split(',');
     a = Number(a);
     b = Number(b);
