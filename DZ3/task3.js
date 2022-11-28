@@ -8,7 +8,7 @@ export function mean(){
             counter+=1;
         }
     }
-    console.log(sumOdd/counter);
+   return console.log(sumOdd/counter);
 }
 
 /*Запросить у пользователя ввод числа N. Вывести в

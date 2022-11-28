@@ -1,6 +1,6 @@
-function todayMinutes(){
+export function todayMinutes(){
     const now = new Date();
-    console.log(now.getHours()*60 + now.getMinutes());
+    return console.log(now.getHours()*60 + now.getMinutes());
 }
 
 /* 2.Написать программу, которая выводит в консоль

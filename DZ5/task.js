@@ -1,10 +1,10 @@
-export function massives(){
-   let firstArr = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+export function massives(firstArr){
+  // let firstArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];//Array.from({length: 10}, () => Math.floor(Math.random() * 100));
    let secondArr = firstArr.map((num) => num * 2);
    let maxOfFirstArr = Math.max.apply(null,firstArr);
    let minfFirstArr = Math.min.apply(null,firstArr);
-   console.log(firstArr);
-   console.log(secondArr);
+   //console.log(firstArr);
+   //console.log(secondArr);
    console.log(maxOfFirstArr);
    console.log(minfFirstArr);
 }

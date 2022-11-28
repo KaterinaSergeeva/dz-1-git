@@ -1,4 +1,4 @@
-function dayOfWeek(){
+export function dayOfWeek(){
     let day = prompt('Enter the date DD.MM.YYYY: ').split(".");
     let today = new Date(day[2],day[1]-1,day[0]);
 

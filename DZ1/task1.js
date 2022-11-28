@@ -1,6 +1,5 @@
 export function sumAndWork(a,b){
-     console.log(a+b);
-     console.log(a*b);
+    return console.log(a+b,a*b);
 }
 
 /*1.В переменных a и b хранятся числа. Написать
