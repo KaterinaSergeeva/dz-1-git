@@ -5,8 +5,7 @@ export function massives(firstArr){
    let minfFirstArr = Math.min.apply(null,firstArr);
    //console.log(firstArr);
    //console.log(secondArr);
-   console.log(maxOfFirstArr);
-   console.log(minfFirstArr);
+   return console.log(maxOfFirstArr,minfFirstArr);
 }
 
 /* Создайте массив целых чисел из 10 элементов.

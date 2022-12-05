@@ -1,6 +1,6 @@
-function circleAttributes(){
+export function circleAttributes(){
     let R = Number(prompt('Enter R: '));
-    console.log(`Length = ${2*Math.PI*R} Square = ${Math.PI*R*R}` );
+    console.log(`Length = ${Math.abs(2*Math.PI*R)}; Square = ${Math.abs(Math.PI*R*R)}` );
 }
 
 /*2.Пользователь вводит число R. Написать программу,

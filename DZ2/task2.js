@@ -1,5 +1,5 @@
 export function month(){
-    const num = prompt('Enter the number: ');
+    const num = Number(prompt('Enter the number: '));
     switch (num){
         case 1:
             return console.log("January");
@@ -20,7 +20,7 @@ export function month(){
             return console.log("June");
             break;
         case 7:
-            console.log("July");
+            return console.log("July");
             break;
         case 8:
             return console.log("August");
@@ -37,6 +37,7 @@ export function month(){
         case 12:
             return console.log("December");
             break;
+        default: console.log("There is no month");
     
     }
 

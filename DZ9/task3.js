@@ -14,6 +14,7 @@ export function equation(){
         let x2 = (-b+Math.sqrt(D))/(2*a);
         console.log(`X1 = ${x1}, X2 = ${x2}`);
     }
+
 }
 
 /* *Пользователь вводит числа a, b и c. Написать

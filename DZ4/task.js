@@ -5,6 +5,7 @@ export function objectUser(){
     user.age = prompt('Enter the number: ');
     let admin = Object.assign({},user,{role:admin});
     let {name,age,role}=admin;
+
 }
 
 

@@ -1,4 +1,4 @@
-function regEx(){
+export function regEx(){
     let str = prompt('Enter something: ');
     const regexpDate = /\d{1,2}[\.\/-]\d{2}[\.\/-]\d{2,4}/;
     const regexpEmail = /[a-zA-Z0-9_\.]+@[a-z0-9]+\.[a-z]{2,5}/;
